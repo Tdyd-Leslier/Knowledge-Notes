@@ -114,7 +114,7 @@ Markdown 换行有 3 种方式。
 
 3. Update the title to match the name of your website.
 
-一些 Markdown 应用程序允许创建术语及其对应的定义列表。要创建定义列表，请在第一行输入术语。在下一行输入 : 并添加 1 个空格。
+一些 Markdown 应用程序允许创建定义列表，github 貌似不可以。要创建定义列表，请在第一行输入术语。在下一行输入 : 并添加 1 个空格。
 
       First Term
       : This is the definition of the first term.
@@ -172,11 +172,11 @@ Second Term
 
 ## 6. 公式
 
-    要数学表达式在行内显示，请用 $ math $ 。
-$ math $ 
+    要数学表达式在行内显示，请用$math$
+$y=x^2$
 
-    要数学表达式在块内显示，请用 $$ math $$ 。
-$$ math $$
+    要数学表达式在块内显示，请用$$math$$
+$$y=x^2$$
 
 可借助使用在线公式编辑工具 [Markdown Math](https://www.latexlive.com/)
 
@@ -194,15 +194,15 @@ $$ math $$
 
 ***粗斜体***
 
-    文本高亮：==文本高亮==
+    文本高亮：==文本高亮== ，github貌似不可以
 
 ==文本高亮==
 
-    文本上标：x^2^
+    文本上标：x^2^，github貌似不可以
 
 x^2^
 
-    文本下标：H~2~O
+    文本下标：H~2~O，github貌似不可以
 
 H~2~O
 
@@ -311,7 +311,7 @@ Markdown 中有 2 种方式实现链接，分别为内联链接和引用链接�
 
 要创建超链接，请使用： \[超链接显示名](超链接地址 "超链接title")。
 
-[Markdown 学习笔记](https://markdown.com.cn "最好的 Markdown 学习笔记")
+[Markdown 学习笔记](https://github.com/Tdyd-Leslier/Knowledge-Notes/blob/main/Markdown-Notes/Markdown-Notes.md "最好的 Markdown 学习笔记")
 
 还可以引用文档本身各标题
 
@@ -319,15 +319,15 @@ Markdown 中有 2 种方式实现链接，分别为内联链接和引用链接�
 
 要将 URL 或者 Email 地址变成可点击的链接，请将其包裹在 <> 中。
 
-<https://markdown.com.cn>
+<https://github.com/Tdyd-Leslier/Knowledge-Notes/blob/main/Markdown-Notes/Markdown-Notes.md>
 
 要强调链接, 请在链接文本前后增加 * 。 要将链接表示为代码，请在方括号中添加 ` 。
 
-I love supporting the **[EFF](https://eff.org)**.
+I love supporting the **[Markdown-Notes](https://github.com/Tdyd-Leslier/Knowledge-Notes/blob/main/Markdown-Notes/Markdown-Notes.md)**.
 
-This is the *[Markdown Text](https://www.markdownguide.org)*.
+This is the *[Markdown-Notes](https://github.com/Tdyd-Leslier/Knowledge-Notes/blob/main/Markdown-Notes/Markdown-Notes.md)*.
 
-See the section on [`code`](https://www.markdownguide.org).
+See the section on [`Markdown-Notes`](https://github.com/Tdyd-Leslier/Knowledge-Notes/blob/main/Markdown-Notes/Markdown-Notes.md).
 
 - 引用链接
 
@@ -341,7 +341,7 @@ I get 10 times more traffic from [Google] [1] than from Yahoo or MSN.
 
 [1]: http://google.com/"Google"
 
-注意：许多 Markdown 应用程序会自动将 URL 转换为链接，这意味着如果输入http://www.example.com，即使未使用 <> ，也会自动将其转换为链接。如果不希望自动链接 URL ，则可以通过将 URL 表示为 \`http://www.example.com` 来取消该链接。  
+注意：许多 Markdown 应用程序会自动将 URL 转换为链接，这意味着如果输入http://google.com，即使未使用 <> ，也会自动将其转换为链接。如果不希望自动链接 URL ，则可以通过将 URL 表示为 \`http://google.com` 来取消该链接。  
 
 ## 12. 高级技巧
 
@@ -356,6 +356,12 @@ I get 10 times more traffic from [Google] [1] than from Yahoo or MSN.
 
 要显示原本用于格式化 Markdown 文档的字符，请在字符前面添加 \ 。
 
+- 表情符号
+
+一些 Markdown 应用程序允许通过输入表情符号代码来插入表情符号，这些以冒号开头和结尾，并包含表情符号的名称。
+
+具体可参考 [Markdown Emotion](https://gist.github.com/rxaviers/7360908)
+
 - 任务列表
 
 任务列表使可以创建带有复选框的项目列表。在支持任务列表的 Markdown 应用程序中，复选框将显示在内容旁边。要创建任务列表，请在任务列表项之前添加 - 和 [] ，并在 [] 前面加上空格。要选择一个复选框，请在 [] 之间添加 x 。
@@ -363,11 +369,5 @@ I get 10 times more traffic from [Google] [1] than from Yahoo or MSN.
 - [x] Write the press release
 - [x] Update the website
 - [ ] Contact the media
-<br>
-- 表情符号
-
-一些 Markdown 应用程序允许通过输入表情符号代码来插入表情符号，这些以冒号开头和结尾，并包含表情符号的名称。
-
-具体可参考 [Markdown Emotion](https://gist.github.com/rxaviers/7360908)
 
 ## 更多 Markdown 语法请查阅 [Markdown官方教程](https://markdown.com.cn/)
