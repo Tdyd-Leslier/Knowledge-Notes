@@ -341,7 +341,7 @@ I get 10 times more traffic from [Google] [1] than from Yahoo or MSN.
 
 [1]: http://google.com/"Google"
 
-注意：许多 Markdown 应用程序会自动将 URL 转换为链接，这意味着如果输入 `http://google.com` ，即使未使用 <> ，也会自动将其转换为链接。如果不希望自动链接 URL ，则可以通过将 URL 表示为 \`http://google.com\` 来取消该链接。  
+注意：许多 Markdown 应用程序会自动将 URL 转换为链接，这意味着如果输入 `http://google.com` ，即使未使用 <> ，也会自动将其转换为链接。如果不希望自动链接 URL ，则可以将其包裹在 `` 中。
 
 ## 12. 高级技巧
 
