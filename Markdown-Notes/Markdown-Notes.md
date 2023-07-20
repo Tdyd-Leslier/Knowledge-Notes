@@ -168,7 +168,7 @@ Second Term
 - 网络图片：在基础格式的括号中输入图片的网络链接即可，可选用免费或收费图床，但缺点是将图片存在网络服务器上，非常依赖网络。
 - Base64转码图片：可借助使用在线转码工具 [Base64](https://toolgg.com/image-to-base64.html) 把图片转成一段字符串，然后把字符串填入图片链接即可，但字符串一般很长，因此推荐和引用链接一起使用。
 
-![Markdown 学习笔记](https://tdydleslier-picgo.oss-cn-guangzhou.aliyuncs.com/Markdown学习笔记/Markdown学习笔记.jpg)
+![1.1](https://tdydleslier-picgo.oss-cn-guangzhou.aliyuncs.com/Knowledge-Notes/Markdown-Notes/1.1.jpg)
 
 ## 6. 公式
 
