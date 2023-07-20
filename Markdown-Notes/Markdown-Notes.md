@@ -156,13 +156,13 @@ Second Term
 | 单元格 | 单元格 | 单元格  |
 | 单元格 | 单元格 | 单元格  |
 
-注意：可以在表格中设置文本格式，但不能添加标题，区块，列表，图像或 HTML 标签等
+注意：可以在表格中设置文本格式，但不能添加标题，区块，列表，图像或 HTML 标签等。
 
 可借助使用在线表格编辑工具 [Markdown Table](https://tableconvert.com/markdown-to-markdown)
 
 ## 5. 图片
 
-要插入图片，请用基础格式：\!\[图片关键词](图片链接 "图片 title") 编写插入 3 种不同类型的图片
+要插入图片，请用基础格式：\!\[图片关键词](图片链接 "图片 title") 编写插入 3 种不同类型的图片。
 
 - 本地图片：在基础格式的括号中输入图片的位置路径即可，支持绝对路径和相对路径。
 - 网络图片：在基础格式的括号中输入图片的网络链接即可，可选用免费或收费图床，但缺点是将图片存在网络服务器上，非常依赖网络。
@@ -313,7 +313,7 @@ Markdown 中有 2 种方式实现链接，分别为内联链接和引用链接�
 
 [Markdown 学习笔记](https://github.com/Tdyd-Leslier/Knowledge-Notes/blob/main/Markdown-Notes/Markdown-Notes.md "最好的 Markdown 学习笔记")
 
-还可以引用文档本身各标题
+还可以引用文档本身各标题。
 
 [Markdown 学习笔记](#markdown-学习笔记 )
 
@@ -331,7 +331,7 @@ See the section on [`Markdown-Notes`](https://github.com/Tdyd-Leslier/Knowledge-
 
 - 引用链接
 
-引用链接分为两部分，与文本保持内联的部分以及存储在文件中其他位置的部分，增加 Markdown 源文件的可读性.
+引用链接分为两部分，与文本保持内联的部分以及存储在文件中其他位置的部分，增加 Markdown 源文件的可读性。
 
       I get 10 times more traffic from [Google] [1] than from Yahoo or MSN.
 
